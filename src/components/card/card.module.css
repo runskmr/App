@@ -1,0 +1,63 @@
+.cardWrapper img { 
+    height: 14rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+.itemName {
+    color: black;
+    font-size: 0.75rem;
+    margin: 0;
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+}
+
+.size {
+    color: #6f7581;
+    font-size: 0.75rem;
+    margin: 0;
+    font-weight: 500;
+}
+
+.detailedInfo {
+    margin-top: 2.5rem;
+}
+
+
+.infoItem {
+    border-bottom: 2px solid #e5e5e5;
+    padding: 0.75rem 0;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 0.85rem;
+}
+
+.label {
+    color: #6f7581;
+
+}
+.infoHead {
+    color: black;
+}
+.descHead {
+    color: black;
+    margin-top: 2rem;
+}
+.favIcon {
+    width: 1.75rem !important;
+    height: 1.75rem !important;
+    cursor: pointer;
+}
+.deleteBtn {
+    background: transparent;
+    padding: 0.5rem;
+    border: 2px solid #eaeaea;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #6f7581;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}

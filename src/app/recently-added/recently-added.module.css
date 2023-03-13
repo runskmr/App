@@ -1,0 +1,13 @@
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+}
+
+.cardWrapper {
+    width: 17rem;
+    min-height: 14rem;
+    padding: 0 1rem;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+}
