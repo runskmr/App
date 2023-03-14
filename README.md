@@ -44,7 +44,7 @@ To use the application, simply navigate to the homepage and start clicking on th
 
 ## **Deployment**
 
-The application has been deployed to **[https://image-gallery.vercel.app/**.](https://app-git-master-runskmr.vercel.app/)
+The application has been deployed to https://app-git-master-runskmr.vercel.app/
 
 ## **Testing**
 
