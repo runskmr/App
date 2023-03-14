@@ -1,46 +1,62 @@
-# Getting Started with Create React App
+# **Image Gallery React Application**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React application that implements a mockup for an image gallery. The application fetches data from the following endpoint: **[https://agencyanalytics-api.vercel.app/images.json](https://agencyanalytics-api.vercel.app/images.json)**.
 
-## Available Scripts
+## **Features**
 
-In the project directory, you can run:
+- When an image is clicked, the right side updates with the associated image data.
+- When a tab is clicked, the following data is shown:
+    - "Recently Added": Images are sorted by createdAt
+    - "Favorited": Images which have been favorited are shown.
+- The user can favorite and delete an image. These changes persist until the page is reloaded.
+- The application uses TypeScript for type safety and better code structure.
+- CSS is implemented using styled components for better maintainability.
+- Semantic HTML is used for better accessibility and SEO.
+- The application follows modern best practices for performance, security, and scalability.
 
-### `npm start`
+## **Getting Started**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To run the application, follow the steps below:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Clone the repository:
 
-### `npm test`
+```bash
+git clone https://github.com/<username>/image-gallery.git
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Install dependencies:
 
-### `npm run build`
+```bash
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Start the development server:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The application should now be running at **`http://localhost:3000/`**.
 
-### `npm run eject`
+## **Usage**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To use the application, simply navigate to the homepage and start clicking on the images. The right side of the screen will update with the associated image data. You can also click on the tabs to switch between "Recently Added" and "Favorited" images. To favorite or delete an image, hover over it and click on the corresponding button.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## **Deployment**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+The application has been deployed to **[https://image-gallery.vercel.app/**.](https://app-git-master-runskmr.vercel.app/)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## **Testing**
 
-## Learn More
+The application includes unit tests implemented using Jest and React Testing Library. To run the tests, use the following command:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm test
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## **Bonus Features**
+
+The following bonus features have been implemented:
+
+- Redux has been used for state management.
+- The application is responsive and can be used on different screen sizes.
