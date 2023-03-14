@@ -1,4 +1,4 @@
-# **Image Gallery React Application**
+# **Frontend Challenge**
 
 This is a React application that implements a mockup for an image gallery. The application fetches data from the following endpoint: **[https://agencyanalytics-api.vercel.app/images.json](https://agencyanalytics-api.vercel.app/images.json)**.
 
